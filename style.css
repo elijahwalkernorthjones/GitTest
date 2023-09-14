@@ -1,7 +1,25 @@
 #main_title {
     color: brown;
+    font-size: 88px;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    transform: translate(0, 150%);
 }
 
 body {
-    background-color: blue;
+    background-color: rgb(19, 19, 68);
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    color: blanchedalmond;
+    font-size: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    transform: translate(0, 400%);
 }
